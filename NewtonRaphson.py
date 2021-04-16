@@ -35,9 +35,9 @@ class NewtonRaphson:
 
         print('The root is x = ', self.x1)
 
-initial_guess = float(input("Please enter the initial guess x0: "))
-error = float(input("Please enter the error e: "))
-max_iteration = float(input("Please enter the maximum number of iteration N: "))
+initial_guess = float(input('Please enter the initial guess x0: '))
+error = float(input('Please enter the error e: '))
+max_iteration = float(input('Please enter the maximum number of iteration N: '))
 
 obj1 = NewtonRaphson(initial_guess, error, max_iteration)
 obj1.NewtonRaphsonIntegrator()

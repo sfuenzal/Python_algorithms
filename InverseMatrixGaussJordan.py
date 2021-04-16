@@ -11,7 +11,7 @@ class InverseMatrixGaussJordan:
 
         for self.i in range(self.n):
             for self.j in range(self.n):
-                self.A[self.i][self.j] = float(input("Please enter the elements of the matrix: "))
+                self.A[self.i][self.j] = float(input('Please enter the elements of the matrix: '))
 
         for self.i in range(self.n):
             for self.j in range(self.n):

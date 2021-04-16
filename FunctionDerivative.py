@@ -39,9 +39,9 @@ class FuntionDerivative:
     def ShowPlots(self):
         plt.show()
 
-number_of_points = int(input("Please enter the number of points to make the plots of the function and its derivative: "))
-initial_point_interval = float(input("Please enter the initial point of the interval to make the plots of the function and its derivative: "))
-final_point_interval = float(input("Please enter the final point of the interval to make the plots of the function and its derivative: "))
+number_of_points = int(input('Please enter the number of points to make the plots of the function and its derivative: '))
+initial_point_interval = float(input('Please enter the initial point of the interval to make the plots of the function and its derivative: '))
+final_point_interval = float(input('Please enter the final point of the interval to make the plots of the function and its derivative: '))
 
 obj1 = FuntionDerivative(initial_point_interval, final_point_interval, number_of_points)
 obj1.Plotf()
